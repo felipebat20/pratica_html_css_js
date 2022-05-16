@@ -1,0 +1,111 @@
+/* Geral */
+ 
+
+
+body {
+    /* configuração da fonte */
+    font-family: Helvetica;
+    /* alinhamento do texto centralizado */
+    text-align: center;
+    /* configurando a cor da fonte */
+    color: white;
+    /* configurando a cor do fundo */
+    background-color: #333;
+    /* Reset depadding */
+    padding: 0;
+    /* Reset de margem  */
+    margin: 0;
+}
+
+/* Estilos aplicados na seção nav */
+nav {
+    /* configurando tipo de renderização do elemento na página */
+    display: flex;
+    /*configurando alinhamento dos elementos ao longo do eixo principal*/
+    justify-content: space-between;
+    /*configurando  distância entre o conteúdo de um elemento e suas bordas*/
+    padding: 20px;
+    /*configurando o alinhamento de items ao centro*/
+    align-items: center;
+    /*configurando  propriedades da borda de baixo*/
+    border-bottom: 1px solid #666;
+}
+
+/*  */
+nav ul {
+     /* configurando tipo de caixa de renderização */
+    display: flex;
+ /* configurando o marcador do item(none) */
+    list-style: none;
+    
+}
+
+/*  */
+ul li {
+    /*configurando  margem da direita*/
+    margin-right: 12px;
+}
+
+/*  */
+ul li a {
+     /* configurando a cor da fonte */
+    color: #fff;
+    /*configurando estilo das linhas especificadas*/
+    text-decoration: none;
+    /* configurando efeito de animação*/
+    transition: 0.5s;
+}
+
+/*  */
+ul li a:hover {
+    /*configurando mudança de cor quando passa o mouse*/
+    color: rgb(15, 89, 150);
+}
+
+/*  */ 
+h1 {
+    /*configurando  tamanho da fonte*/
+    font-size: 32px;
+}
+
+/*  */ 
+img {
+    /*configurando  borda da imagem*/
+    border: 3px solid rgb(15, 194, 218);
+    /*configurando  tamanho da imagem*/
+    height: 300px;
+}
+
+/*  */
+footer {
+    /*configurando  distância entre o conteúdo de um elemento e suas bordas*/
+    padding: 20px; 
+    /*configurando  borda superior*/
+    border-top: 1px solid #666;
+    /*configurando  distância entre o conteúdo de um elemento e suas bordas*/
+    padding: 20px; 
+    /*configurando margems uperior*/
+    margin-top: 20px;
+    /*configurando  tamanho da fonte*/
+    font-size: 32px;
+}
+
+
+
+/* Estilo aplicado no elemento pela tag */ 
+img {
+    /*configurando  borda da imagem*/
+    border: 3px solid rgb(15, 194, 218);
+       /*configurando  tamanho da imagem*/
+    height: 300px;
+}
+
+/* Seção footer */
+footer {
+    /*configurando  distância entre o conteúdo de um elemento e suas bordas*/
+    padding: 20px;
+     /*configurando  borda superior*/
+    border-top: 1px solid #666;
+     /*configurando margem uperior*/
+    margin-top: 20px;
+}

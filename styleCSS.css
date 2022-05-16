@@ -1,0 +1,86 @@
+/* Geral */
+body {
+     /*configurando  distância entre o conteúdo de um elemento e suas bordas*/
+    padding: 20px;
+}
+
+/* Estilo para a tag Parágrafos */
+p {  
+    /* configurando a cor da fonte */
+    color: green;
+     /*configurando  tamanho da fonte*/
+    font-size: 30px;
+}
+
+/* Estilo para a classe de Parágrafos numerados */
+.p-numerados {
+    /* configuração da fonte */
+    font-family: 'Courier New';
+     /* configurando a cor da fonte */
+    color: blueviolet;
+     /* configurando a cor do fundo */
+    background-color: yellowgreen;
+}
+
+/* Estilo para o id p1 */
+#p1 {
+     /* configurando a cor do fundo */
+    background-color: black;
+    /* configurando a cor da fonte */
+    color: red;
+}
+
+h2 {
+    /*configurando  borda inferior*/
+    border-bottom: 1px solid red;
+}
+
+/* TODOS ELEMENTOS DA PÁGINA */
+* {
+     /* configuração da fonte */
+    font-family: Arial;
+}
+
+ .decoration {
+    /*configurando estilo das linhas especificadas*/
+    text-decoration: none;
+    /* configurando efeito de animação*/
+    transition: 0.5s;
+}
+
+a:visited {
+      /* configurando a cor da fonte */
+    color: rgb(241, 13, 13);
+}
+
+a:hover {
+     /*configurando mudança de cor quando passa o mouse*/
+    background-color: yellow;
+    
+}
+
+/* Fontes */
+.serifada {
+      /* configuração da fonte */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sem-serifa {
+      /* configuração da fonte */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.monoespacada {
+      /* configuração da fonte */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.caixa {
+      /* configuração  tamanho dal argura */
+    width: 150px;
+    /* configuração tamanho da altura */
+    height: 100px;
+    /* configuração e cor da fonte */
+    border: 1px solid blue;
+    /*configurando  distância entre o conteúdo de um elemento e suas bordas*/
+    padding: 20px;
+}

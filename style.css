@@ -1,0 +1,35 @@
+/* Geral */
+body {
+    /* configuração da fonte */
+    font-family: sans-serif;
+}
+
+/* Estilo aplicado no elemento pelo ID */ 
+#div-paragrafos {
+    /* configurando a cor do fundo */
+    background-color: rgb(93, 93, 145);
+     /* configurando a cor da fonte */
+    color: aliceblue;
+}
+
+/* Estilo aplicado no elemento pela classe */ 
+.longo {
+     /* configurando a cor do fundo */
+    background-color: pink;
+}
+
+/* Estilo aplicado no elemento pelo ID */ 
+#p1 {
+     /* configurando a cor da fonte */
+    color: brown;
+     /* configuração tamanho da  fonte */
+    font-size: 30px;
+     /* configuração da fonte */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Estilo aplicado no elemento para a tag <p> */
+p {
+      /* configuração da fonte */
+    font-family: 'Courier New', Courier, monospace;
+}
